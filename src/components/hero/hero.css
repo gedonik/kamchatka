@@ -1,0 +1,48 @@
+/*header*/
+
+.hero {
+    display: block;
+    height: 100vh;
+    background-image: url("src/assets/images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: var(--black-900);
+    opacity: 0.2
+}
+
+.header {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__img {
+    margin-right: 1rem;
+}
+
+.logo__description {
+    max-width: 6.2rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.menu__list {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.menu__item {
+    font-size: 1rem;
+    line-height: 1.3;
+    color: var(--green-800);
+    transition: color 0.3s ease-in-out;
+}
+
+.menu__item:hover {
+    color: var(--white-900);
+}
